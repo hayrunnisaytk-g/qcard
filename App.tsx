@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react"
 import { QRCodeSVG } from "qrcode.react"
-import { buildVcfString, type ContactFormData } from "./lib/vcf"
+import { buildVcfString, type ContactFormData } from "./vcf"
 
 const trimToUndefined = (value: string): string | undefined => {
   const trimmed = value.trim()
